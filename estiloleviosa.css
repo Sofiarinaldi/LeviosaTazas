@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+header {background-color: rgba(0, 0, 0, 0.9);
+    position: sticky;
+  top: 0;
+}
+a:link {color:blueviolet;}
+a:hover {color: darkgoldenrod;}
+
+
+
+.navegador{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    color: blueviolet;
+    max-width: 100%;
+    display:flex;justify-content:space-evenly; align-items: center;
+}
+
+a {text-decoration: none;}
+
+.inicio img { width:100%;
+    
+}
+
+body {
+    background-image: url(seccion.png);
+}
+
+.productos { display:flex; 
+    justify-content: center;
+    flex-flow: wrap;
+    padding: 5px;
+    width: 95%;
+    margin:auto;
+}
+
+.productos img {max-width: 25%;
+    margin-top: 5px;
+padding: 5px;}
+
+.productos img:hover{
+        box-shadow: 10px 17px 20px rgb(151, 16, 192);}
+
+
+p {color: rgb(255, 255, 255); font-size: 20px ;font-family:'Abel', sans-serif;
+}
+h1  {font-family:'Abel', sans-serif;
+    color: white;}
+h3 {font-family:'Abel', sans-serif;
+color: white;
+padding: 10px;}
+
+.container {display:flex; justify-content: center;
+text-align: center;
+line-height: 20px;
+width: 95%;
+margin: auto;
+padding: 20px;
+background-color:rgba(225, 124, 250, 0.87);
+margin-top: 20px;
+}
+.cotainer div {margin: 60px;}
+
+.medios { display:flex; justify-content: space-evenly;
+    text-align: center;
+    line-height: 20x;
+    margin-top:20px;
+}
+
+footer {background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    margin-top: 20px;
+    padding:30px;
+    text-align:center;
+}
+
+i {color: rgb(255, 230, 0); 
+font-size: 20px;
+padding:10px;
+}
+.text {font-size: 20px;}
+
+
+@media only screen and (max-width:480px){
+    .navegador{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:600px){
+    .navegador{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:800px){
+    .navegador{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .productos img {max-width: 33%;}
+
+}
+
+@media only screen and (max-width:600px){
+    .productos img {max-width: 50%;}
+}
+
+
+@media only screen and (max-width:600px){
+    .medios{flex-direction: column;}
+}
+
+@media only screen and (max-width:600px){
+    .container{flex-direction: column;}
+}

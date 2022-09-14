@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="icon" href="leviosa.png.ico">
+        <link rel="font" href="baronneu">
+        <script src="https://kit.fontawesome.com/8efb435a74.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="estilocontacto.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Shade&family=Fredoka+One&family=Indie+Flower&family=Jost:wght@100&family=Vast+Shadow&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="navegador">
+                    <a href="index.html"> <img src="Logo_header.png"></a>
+                    <a href="index.html"><i class="fa-solid fa-bolt"></i> INICIO</a>
+                    <a href="index.html#productos"><i class="fa-solid fa-bolt"></i> PRODUCTOS</a>
+                    <a href="FAQ.html"><i class="fa-solid fa-bolt"></i> PREGUNTAS FRECUENTES</a>
+                    <a href="Contacto.html"><i class="fa-solid fa-bolt"></i> CONTACTO</a>
+                </div>
+            </nav>
+        </header>
+    
+        <section>
+            
+            <form action="" name="formulario" method="post">
+                <h1>DEJANOS TU MENSAJE O CONSULTA</h1>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    </div>
+                <div>
+                    <input class="control" type="text" name="nombre" id="nombre" maxlength="30">
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                </div>
+                <div>
+                    <input class="control" type="text" name="apellido" id="apellido" maxlength="30" >
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input class="control" type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                </div>
+                <div>
+                    <textarea class="control" name="mensaje" id="mensaje" cols="30" rows="10">Escribe tu consulta o pedido</textarea>
+                </div>
+                <div>
+                    <label for="check"><p>¿Cómo nos conoció?</p></label>
+                </div>
+                <div>
+                    <input class="opcion" type="radio" name="conoce" id="redes" value="redes"> Redes sociales
+                    <input class="opcion" type="radio" name="conoce" id="recomen" value="recomen"> Recomendación
+                    <input class="opcion" type="radio" name="conoce" id="otro" value="otro"> Otro
+                </div>
+                <div>
+                    <input class="boton" type="submit" id="btn" name="btn" value="Enviar">
+                </div>
+            </form>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.342142374297!2d-58.568964785194524!3d-34.62079316590792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb80fe33a44a5%3A0x1631b5ba22347515!2sDomingo%20Faustino%20Sarmiento%204047%2C%20B1678HCE%20Caseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1652225032999!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="local">
+                    <h3>NUEVO LOCAL</h3>
+                    <p>Nos encontramos en Sarmiento, 4047. Caseros. GBA.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="text">
+                <h3>STALKEANOS EN REDES SOCIALES</h3>
+            </div>
+            <div class="redes">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <a href="https://www.instagram.com/leviosa.tazas/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:leviosa.tazas@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+            <div class="datos">
+                <p>Copyright 2022 © <b>Leviosa Tazas</b> todos los derechos reservados</p>
+                <p>Diseñado por Sofía Rinaldi comision 22085</p>
+            </div>
+        </footer>    
+        <script src="validacion.js"> </script>
+    </body>
+</html>

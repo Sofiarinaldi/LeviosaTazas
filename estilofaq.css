@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+    body {
+        background-image: url(fondo.png);
+    }
+
+header {background-color: rgba(0, 0, 0, 0.9);
+    position: sticky;
+  top: 0;
+}
+a:link {color:blueviolet;}
+a:hover {color: darkgoldenrod;
+}
+.navegador{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    color: blueviolet;
+    display:flex;justify-content:space-evenly; align-items: center;
+}
+i {color: rgb(255, 230, 0);}
+
+a {text-decoration: none;}
+
+section {display:flex; justify-content: space-around;
+    margin: 50px;
+}
+
+.faq {width: 40%;
+text-align: center;}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+button {border: none;
+    background-color:rgba(177, 102, 247,0);
+display: flex;
+margin:10px;}
+
+h2{font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    color:white;
+}
+.container h2:hover{ color: rgb(241, 245, 18);}
+
+p , li { font-family: 'Abel', sans-serif;
+color: black;
+font-size:25px;}
+
+.faq p {margin:3px;}
+
+#uno , #dos, #tres , #cuatro , #cinco , #seis {display: none;}
+
+footer {background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    margin-top: 20px;
+    padding:30px;
+    text-align:center;
+}
+
+h3 {font-family:'Abel', sans-serif;
+    color: white;
+    padding: 10px;}
+.datos p {color: rgb(255, 255, 255); font-size: 20px ;font-family:'Abel', sans-serif;}
+
+i {color: rgb(255, 230, 0); 
+font-size: 20px;
+padding:10px;
+}
+.text {font-size: 20px;}
+
+@media only screen and (max-width:480px){
+    .navegador{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:600px){
+    .navegador{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:800px){
+    .navegador{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:480px){
+    section {
+        flex-direction: column;
+    }
+    .faq , .container{
+        width: 100%;
+    }
+    button{margin:auto;}
+}
+
+@media only screen and (max-width:600px){
+    section {
+        flex-direction: column;
+    }
+    .faq , .container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:800px){
+    section {
+        flex-direction: column;
+    }
+    .faq , .container{
+        width: 100%;
+    }
+}
+    
